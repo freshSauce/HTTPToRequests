@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<items burpVersion="2024.11.2" exportTime="Mon Dec 30 00:06:23 CST 2024">
+    <item>
+        <time>Sun Dec 29 23:52:11 CST 2024</time>
+        <url><![CDATA[https://example.com/api/login]]></url>
+        <host ip="192.168.0.1">example.com</host>
+        <port>443</port>
+        <protocol>https</protocol>
+        <method><![CDATA[POST]]></method>
+        <path><![CDATA[/api/login]]></path>
+        <extension>null</extension>
+        <request base64="false"><![CDATA[POST /api/login HTTP/1.1
+Host: example.com
+Content-Type: application/json
+Authorization: Bearer example_token
+
+{
+    "username": "test_user",
+    "password": "secure_password"
+}
+]]></request>
+        <status>200</status>
+        <responselength>128</responselength>
+        <mimetype>application/json</mimetype>
+        <response base64="false"><![CDATA[HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+    "message": "Login successful",
+    "token": "abc123"
+}
+]]></response>
+        <comment><![CDATA[Login endpoint]]></comment>
+    </item>
+    <item>
+        <time>Sun Dec 29 23:53:45 CST 2024</time>
+        <url><![CDATA[https://example.com/api/profile]]></url>
+        <host ip="192.168.0.1">example.com</host>
+        <port>443</port>
+        <protocol>https</protocol>
+        <method><![CDATA[GET]]></method>
+        <path><![CDATA[/api/profile]]></path>
+        <extension>null</extension>
+        <request base64="false"><![CDATA[GET /api/profile HTTP/1.1
+Host: example.com
+Authorization: Bearer abc123
+]]></request>
+        <status>200</status>
+        <responselength>256</responselength>
+        <mimetype>application/json</mimetype>
+        <response base64="false"><![CDATA[HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+    "username": "test_user",
+    "email": "test@example.com"
+}
+]]></response>
+        <comment><![CDATA[Profile endpoint]]></comment>
+    </item>
+</items>

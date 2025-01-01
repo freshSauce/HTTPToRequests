@@ -21,7 +21,7 @@ Tired of translating HTTP Messages to Python requests by hand or doing a curl->r
 
 Usage within code:
 ```python
-import HTTPConverter from httpconverter
+from httpconverter import HTTPConverter 
 
 file = "./examples/example.xml"
 

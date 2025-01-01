@@ -7,6 +7,7 @@ setup(
     install_requires=[
         "beautifulsoup4",
         "autopep8",
+        "lxml",
     ],
     entry_points={
         "console_scripts": [

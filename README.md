@@ -84,6 +84,6 @@ Want to contribute to the project? Great! Please follow the next steps in order 
 [issues-shield]: https://img.shields.io/github/issues/freshSauce/HTTPToRequests.svg?style=for-the-badge
 [issues-url]: https://github.com/freshSauce/HTTPToRequests/issues
 [license-shield]: https://img.shields.io/github/license/freshSauce/HTTPToRequests.svg?style=for-the-badge
-[license-url]: https://github.com/freshSauce/HTTPToRequests/blob/master/LICENSE
+[license-url]: https://github.com/freshSauce/HTTPToRequests/blob/main/LICENSE
 [telegram-shield]: https://img.shields.io/badge/-@freshSauce-black?style=for-the-badge&logo=telegram&colorB=0af
 [telegram-url]: https://t.me/freshSauce
